@@ -205,7 +205,7 @@ h4, .h4 {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: white;
 }
 
 .navbar .dropdown-toggle::after {
