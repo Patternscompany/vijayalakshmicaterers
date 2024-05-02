@@ -262,6 +262,7 @@ h4, .h4 {
 	background: #88B44E;
 	padding: 30px 0;
 	border-radius: 100px;
+    
 }
 
 .overflow-hidden {
@@ -370,19 +371,41 @@ h4, .h4 {
 
 
 
-.page-headerblog {
-    background: url(..img/aboutimg2.4.jpg) ;
-    background-size: cover;
-}
-.page-headerblog .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--light);
-} 
 
-.page-header .breadcrumb-item,
-.page-header .breadcrumb-item a {
+.page-headerblog {
+        background: url('../img/aboutimg2.4.jpg') no-repeat center center fixed;
+        background-size: cover;
+}
+
+.page-headerblog .breadcrumb-item+.breadcrumb-item::before {
+        color: var(--light);
+}
+
+.page-headerblog .breadcrumb-item,
+.page-headerblog .breadcrumb-item a {
+        font-size: 18px;
+        color: var(--light);
+ }
+
+ 
+.page-headercontact {
+    background: url('../img/Designer.png') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.page-headercontact .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-headercontact .breadcrumb-item,
+.page-headercontact .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
 }
+
+
+
 
 
 
