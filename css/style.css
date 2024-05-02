@@ -346,14 +346,14 @@ h4, .h4 {
     }
 }
 
-.page-header {
+/* .page-header {
     background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
-}
+}*/
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
-}
+} 
 
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
@@ -363,19 +363,27 @@ h4, .h4 {
 
 
 .page-headerveg {
-    background: url(../img/vegmenu.jpg) center center no-repeat;
+    background: url(../img/vegmenu.jpg) ;
     background-size: cover;
 }
 
-.page-header .breadcrumb-item+.breadcrumb-item::before {          
-    color: var(--light);
-}
 
-.page-header .breadcrumb-item,
-.page-header .breadcrumb-item a {
+
+
+.page-headerblog {
+    background: url(..img/aboutimg2.4.jpg) ;
+    background-size: cover;
+}
+.page-headerblog .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+} 
+
+.page-headerblog .breadcrumb-item,
+.page-headerblog .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
 }
+
 
 
 
