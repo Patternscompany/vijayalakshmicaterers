@@ -627,7 +627,7 @@ h4, .h4 {
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url("../img/healty-food-cartoon-representing-some-funny-vegetables-74188881.webp") center center no-repeat;
+    background:  url("../img/healty-food-cartoon-representing-some-funny-vegetables-74188881.webp") center center no-repeat;
     background-size: cover;
 }
 
