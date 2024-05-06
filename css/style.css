@@ -86,6 +86,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -205,7 +215,7 @@ h4, .h4 {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: white;
 }
 
 .navbar .dropdown-toggle::after {
@@ -254,6 +264,58 @@ h4, .h4 {
 }
 
 
+/*------------------------------------------------------------------
+    Contact info
+-------------------------------------------------------------------*/
+
+.contact-imfo-box{
+	background: #88B44E;
+	padding: 30px 0;
+	border-radius: 100px;
+    
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.contact-imfo-box i{
+	display: block;
+	float: left;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #fff;
+	color: #88B44E;
+	font-size: 30px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	border-radius: 4px;
+	margin-right: 20px;
+}
+.contact-imfo-box h4 {
+    margin: 0px;
+    margin-top: 5px;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 0px;
+	font-weight: 500;
+	line-height: 24px;
+}
+.contact-imfo-box p {
+    margin: 0px;
+	color: #ffffff;
+	font-weight: 300;
+}
+
+/*------------------------------------------------------------------
+    Footer
+-------------------------------------------------------------------*/
+
+
+
 /*** Header ***/
 .carousel-caption {
     top: 0;
@@ -294,15 +356,15 @@ h4, .h4 {
         object-fit: cover;
     }
 }
-
+/* 
 .page-header {
     background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
     background-size: cover;
-}
+} */
 
 .page-header .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
-}
+} 
 
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
@@ -316,15 +378,45 @@ h4, .h4 {
     background-size: cover;
 }
 
-.page-header .breadcrumb-item+.breadcrumb-item::before {          
+
+
+
+
+.page-headerblog {
+        background: url('../img/aboutimg2.4.jpg') no-repeat center center fixed;
+        background-size: cover;
+}
+
+.page-headerblog .breadcrumb-item+.breadcrumb-item::before {
+        color: var(--light);
+}
+
+.page-headerblog .breadcrumb-item,
+.page-headerblog .breadcrumb-item a {
+        font-size: 18px;
+        color: var(--light);
+ }
+
+ 
+.page-headercontact {
+    background: url('../img/Designer.png') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.page-headercontact .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
-.page-header .breadcrumb-item,
-.page-header .breadcrumb-item a {
+.page-headercontact .breadcrumb-item,
+.page-headercontact .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
 }
+
+
+
+
 
 
 
@@ -535,7 +627,7 @@ h4, .h4 {
 
 /*** Testimonial ***/
 .testimonial {
-    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/testimonial-bg.jpg) center center no-repeat;
+    background:  url("../img/healty-food-cartoon-representing-some-funny-vegetables-74188881.webp") center center no-repeat;
     background-size: cover;
 }
 
