@@ -20,7 +20,9 @@ html, body{
 .container-fluid{
     @media (min-width:992px){
         width: 100%;
+        
         overflow: hidden;
+        
     }
 }
 
