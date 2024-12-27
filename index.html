@@ -102,17 +102,7 @@
         </div>
     </div>
     <!-- Navbar End -->
-
-
-    <!-- Carousel Start -->
-    <div class="container-fluid px-0 mb-5">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100 mobile" src="img/hero.png" alt="Image">
-                    <img class="w-100 h-40" src="img/1306615.jpg"/>
-
-                    <!-- <video autoplay muted loop id="myVideo" class="h-90 w-100">
+  <!-- <video autoplay muted loop id="myVideo" class="h-90 w-100">
                         <source src="media/161827-824281965_tiny.mp4" type="video/mp4">
                     </video> -->
 
@@ -121,29 +111,92 @@
                         <source src="media/103207-662114450_tiny.mp4" type="video/mp4">
                     </video> -->
 
-
+    <!-- Carousel Start -->
+    <div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="header-carousel owl-carousel">
+                <!-- Carousel Item 1 -->
+                <div class="slider1 active">
+                    <img class="w-100 mobile" src="img/bannerss11.gif" alt="Image">
+                    <img class="w-100 h-40" src="img/bannerss11.gif" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 text-center pt-5">
-                                    <!-- <p class="fs-4 text-white animated zoomIn">Welcome to <strong
-                                            class="text-dark">Vijaya Lakshmi Cateres</strong></p> -->
-                                    <h1 class="display-3 text-white mb-4 animated zoomIn">Welcome to <br/><spam class="text-dark"></spam>JAGANMATA Cateres<br/> </h1>
-                                    
+                                    <h1 class="display-3 text-white mb-4 animated zoomIn">
+                                        Welcome to <br />
+                                        <span class="text-white">JAGANMATA Caterers</span>
+                                    </h1>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-               
+    
+                <!-- Carousel Item 2 -->
+                <div class="slider2">
+                    <img class="w-100 mobile" src="img/nonveghero.png" alt="Image">
+                    <img class="w-100 h-40" src="img/bannersss22.gif" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 text-center pt-5">
+                                    <h1 class="display-3 text-white mb-4 animated zoomIn">
+                                        Welcome to <br />
+                                        <span class="text-white">JAGANMATA Caterers</span>
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
+    </div>
+    
+    <!-- JavaScript for Carousel -->
+    <script>
+        $(document).ready(function () {
+            $(".header-carousel").owlCarousel({
+                autoplay: true,
+                smartSpeed: 1000,
+                margin: 25,
+                loop: true,
+                center: true,
+                dots: false,
+                nav: true,
+                navText: [
+                    '<i class="bi bi-chevron-left"></i>',
+                    '<i class="bi bi-chevron-right"></i>'
+                ],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    576: {
+                        items: 1
+                    },
+                    768: {
+                        items: 1
+                    },
+                    992: {
+                        items: 1
+                    }
+                }
+            });
+        });
+    </script>
+    
 
 
         <style>
+            .header-carousel .slider1, .header-carousel .slider2{
+height: 100vh;
+object-fit: coverm
+;
+            }
             .mobile{
-                display: none;
+                display: none !important;
 
             }
             @media(max-width:992px){
@@ -160,60 +213,7 @@
         <h1 class="fs-5 fw-medium fst-italic text-primary text-center">About Us</h1>
 
 
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6">
-                        <div class="row g-3">
-                            <div class="col-6 text-end">
-                                <img class="img-fluid bg-white w-100  mb-3 wow fadeIn" data-wow-delay="0.1s"
-                                    src="img/2023-07-06.jpg" alt="">
-                                <img class="img-fluid bg-white w-70 wow fadeIn h-20" data-wow-delay="0.2s"
-                                    src="img/2023-07-06 (1).jpg" alt="">
-                                <img class="img-fluid bg-white w-70 mb-3 wow fadeIn" data-wow-delay="0.3s"
-                                    src="img/2023-07-06 (2).jpg" alt="">
-                            </div>
-                            <div class="col-6">
-                                <img class="img-fluid bg-white w-70 mb-3 wow fadeIn" data-wow-delay="0.3s"
-                                    src="img/2023-07-06 (3).jpg" alt="">
-
-                                <img class="img-fluid bg-white w-100 wow fadeIn " data-wow-delay="0.4s"
-                                    src="img/IMG_20210901_180826.jpg" alt="">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="section-title">
-                            <p class="fs-5 fw-medium fst-italic text-primary">Little Story</p>
-                            <h1 class="display-6">Welcome To Vijaya Lakshmi Caterers</h1>
-                        </div>
-                        <div class="row g-3 mb-4">
-                            <div class="col-sm-4">
-                                <img class="img-fluid bg-white w-100" src="img/IMG_20210901_173636.jpg" alt="">
-                            </div>
-                            <div class="col-sm-8 k">
-                                <h5 class="k">Elevating Every Occasion with Our Catering Team</h5>
-                                <p class="mb-0 k">The service team is a highly trained and refined. Our entire staff
-                                    provides impeccable service from set up to clean up.</p>
-                            </div>
-                        </div>
-                        <div class="border-top mb-4"></div>
-                        <div class="row g-3">
-                            <div class="col-sm-8">
-                                <h5 class="k">Elevating Every Moment with Exceptional Service, Cuisine, and Planning</h5>
-                                <p class="mb-0 k">We are committed to excellent service, cuisine, and event planning from
-                                    the day you contact us until the last dish is washed and packed away.</p>
-                            </div>
-                            <div class="col-sm-4">
-                                <img class="img-fluid bg-white w-100" src="img/2018-09-12 (1).jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+       
 
 
         <div class="container-xxl py-5">
@@ -226,16 +226,8 @@
                             <h1 class="display-6">We Undertake all types of Catering Services in Hyderabad</h1>
                         </div>
                         <p class="k">
-                            In the bustling city of Hyderabad, where culinary diversity is celebrated,
-                            our Catering Services in Hyderabad stand out as a beacon of excellence. With a
-                            commitment to culinary innovation and exceptional service, we undertake all types
-                            of catering services to meet the diverse needs of our clients. <br /><br />Whether it's an
-                            intimate
-                            gathering, a lavish wedding, a corporate event, or a grand celebration, our team brings
-                            passion and expertise to every occasion. From traditional Hyderabadi delicacies like biryani
-                            and kebabs to international cuisines crafted with flair, our menus are tailored to impress
-                            even
-                            the most discerning
+                            With over 15 years of expertise in event management and catering, we have proudly served at more than 10,000 events, including 1,500+ weddings, creating unforgettable experiences for our clients. Our services are designed to cater to gatherings of all sizes, from intimate groups of 100 to grand celebrations of up to 5,000 guests. Whether it’s a wedding, corporate event, birthday, or any special occasion, 
+                            we bring passion, professionalism, and culinary excellence to ensure every moment is perfect.
 
                         </p>
                     </div>
